@@ -1,0 +1,37 @@
+# 环境变量 - 包含敏感信息
+.env
+.env.local
+.env.production
+*.env
+
+# 依赖目录
+node_modules/
+package-lock.json
+
+# 上传文件临时目录
+uploads/
+
+# 构建产物
+dist/
+build/
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
+
+# 临时文件
+*.tmp
+*.temp
